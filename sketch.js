@@ -101,9 +101,9 @@ function draw(){
 
   //putting the score and money collected on top left   
     textSize(16);
-   text ("Score : "+ score, 30, 30); 
+   text ("SCORE : "+ score, 30, 30); 
     fill("green");
-    text ("Treasure Coll. : "+ treasure_val, 24, 60);
+    text ("Treasure Value (in Lakhs):  "+ treasure_val, 24, 60);
        
    if (gamestate ==PLAY) 
    {
